@@ -128,7 +128,7 @@ class TopBar extends Component {
                     <img src="/static/black.png" />
                     <div className="cart-badge">{cart}</div>
                   </div>
-                  <p className="pl-3">Your bag: $00.00</p>
+                  <p className="pl-3">Tu Carrito: $00.00</p>
                 </div>
               </div>
             </div>
