@@ -54,11 +54,11 @@ class TopBar extends Component {
   handleShow = (form) => {
     switch (form) {
       case 'register': {
-        return this.setState({ show: true, form: <RegisterForm />, title: "Sign Up", type: null });
+        return this.setState({ show: true, form: <RegisterForm />, title: "Registrarse", type: null });
       }
 
       case 'login': {
-        return this.setState({ show: true, form: <LoginForm />, title: "Login", type: null });
+        return this.setState({ show: true, form: <LoginForm />, title: "Entrar", type: null });
       }
 
       case 'openCart': {
@@ -85,7 +85,7 @@ class TopBar extends Component {
           <div className="row">
             <div className="col-4">
               {!customer.customer_id && <div className="top-bar-auth">
-                <p>Hi!
+                <p>Hola!
                     <span>
                     <button className="top-bar-auth-btn" onClick={() => this.handleShow('register')}>sign up</button>
                   </span> or
