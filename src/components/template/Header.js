@@ -63,7 +63,7 @@ class Header extends Component {
             <div className="col-7 d-flex align-items-center justify-content-between">
               <div className="">
                 <div className="brand">
-                  <Link to="/"><a href="/">AliadoDeVentas</a></Link>
+                  <Link to="/"><a href="/">Aliado De Ventas</a></Link>
                 </div>
               </div>
               <div className=" header-sections">
