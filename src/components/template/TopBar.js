@@ -99,7 +99,7 @@ class TopBar extends Component {
                 <div className="dropdown-custom-button">
                   <Dropdown>
                   <Dropdown.Toggle variant="success" id="dropdown-basic">
-                    Hello! {customer.name}
+                    Hola! {customer.name}
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
                     <div className="txt-align">
