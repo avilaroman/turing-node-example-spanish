@@ -39,7 +39,7 @@ Utilizado para la presentación de la interfaz
 ### REDUX $ REDUX SAGA
 Utilizado para la gestión estatal
 
-### CASCO
+### HELMET
 Helmet lo ayuda a proteger sus aplicaciones Express.js configurando varios encabezados HTTP. No es una solución milagrosa, ¡pero puede ayudar!
 
 ### SUPERAGENTE
@@ -53,7 +53,7 @@ No de tarjeta: 4242424242424242 <br>
 CVV: 123 <br>
 Fecha: 23/12 <br>
 
-### Momento
+### MomentJS
 [Consulte aquí] (https://momentjs.com/) para obtener más información. <br>
 Este paquete se utiliza para convertir las marcas de tiempo UNIX devueltas por el servidor a tiempo relativo (** hace minutos). También se utiliza para formatear las horas UNIX a formatos específicos (DD / MM / AAAA, etc.)
 
